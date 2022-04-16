@@ -1,0 +1,98 @@
+# a = 6
+
+# print(type(a)
+
+# a = [1,2,3,4,"ac"]
+
+# print(a[2])#리스트이 해당 번째 데이터를 가르키는 법
+
+# a[2] = "79"#리스트의 해당 번째 데이터를 다른 값으로 바꾸는 법
+# print(a)
+
+# a.pop(2)#리스트의 해당 번째 데이터를 삭제하는 힘수
+# print(a)
+
+# a.pop()# 맨 리스트의 마지막 값을 삭제하는 함수
+# print(a)
+
+# print(len(a))#리스트의 길이를 알려주는 함수
+
+# print("ac" in a)#해당 값이 리스트안에 존재하면 참
+
+# print("ac" not in a)#해당 값이 리스트안에 존재하지 않으면 참
+
+# for i in a:
+#     print(i)
+
+# a.index(4).
+
+# a.append(14)
+
+# for i in lst:
+#     print(i,end = ' ')
+
+#튜풀
+# a = (1,2,3,4)# a = 1,2,3,4
+# print(type(a))# class tuple
+# print(a[3])
+# a[2] = 10
+# a.append(2)
+
+#딕셔너리
+# a = {3:'a', 'b':14,'acw':'c','sf21':'d'}
+# print(a[3])
+# a['16'] = 90#딕셔너리에 값 추가
+# print(a, a["16"])
+
+
+#숫자 1~5까지의 숫자를 5개 입력받는다.
+#입력받은 숫자에 따라 A~E까지의 알파뱃을 띄어쓰기 없이 한줄로 출력한다.
+
+# result = ' '
+# for i in range(5):
+#     a = int(input())
+#     if a == 1:
+#         result = result + "A"
+        # print("A",end = ' ')
+    # elif a == 2:
+    #     result = result + "B"
+        # print("B", end=' ')
+    # elif a == 3:
+    #     result = result + "C"
+        # print("C", end=' ')
+    # elif a == 4:
+    #     result = result + "D"
+        # print("D", end=' ')
+    # elif a == 5:
+    #     result = result + "E"
+        # print("E", end=' ')
+# print(result)
+
+# result = ' '
+# change = {1:"A",2:"B",3:"C",4:"D",5:"E"}
+
+# for i in range(5):
+#     result += change[int(input())]
+# print(result)
+
+# a = []
+
+# for i in range():
+
+# dn = int(input())
+# for i in range(1,18):
+#     print("%d X %d = %d"%(dn,i,dn * i))
+#     print(dn,"x",i,"=",dn * i)
+    
+# for i in range(2,10):
+#     for j in range(1,10):
+#         print("%d X %d = %d"%(i ,j ,i * j)
+
+# for i in range(3):
+#     a = int(input())
+#     while True:
+#         sum += a % 10
+#         a = 1 // 10
+#         if a == 0:
+#             break
+# print(sum)
